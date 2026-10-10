@@ -7,7 +7,7 @@ cask "oneprompt" do
   desc "GPU terminal drawn like an ink painting on hand-made paper"
   homepage "https://github.com/jhasubhash/oneprompt"
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "oneprompt.app"
   binary "#{appdir}/oneprompt.app/Contents/MacOS/oneprompt"
