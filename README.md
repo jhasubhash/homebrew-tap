@@ -1,9 +1,13 @@
 # Homebrew tap
 
-Homebrew casks for [oneprompt](https://github.com/jhasubhash/oneprompt), a macOS terminal drawn like an ink painting on hand-made paper.
+Homebrew casks for my macOS apps.
 
-```sh
-brew install --cask jhasubhash/tap/oneprompt
-```
+| App | Install |
+|---|---|
+| [oneprompt](https://github.com/jhasubhash/oneprompt): a terminal drawn like an ink painting on hand-made paper | `brew install --cask jhasubhash/tap/oneprompt` |
+| [Onecast](https://github.com/jhasubhash/onecast): a launcher, AI cockpit and custom docks, that also runs Raycast extensions | `brew install --cask jhasubhash/tap/onecast` |
 
-`brew upgrade --cask oneprompt` updates it. The cask is updated by oneprompt's release script with each release.
+On an Intel Mac, install `jhasubhash/tap/onecast-universal` instead of `onecast`.
+
+`brew upgrade --cask oneprompt` updates oneprompt. Onecast updates itself, so its casks declare
+`auto_updates` and `brew upgrade` leaves it alone. Each app's release script updates its cask.
