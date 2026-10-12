@@ -10,7 +10,7 @@ cask "onecast" do
   auto_updates true
   conflicts_with cask: "onecast-universal"
   depends_on arch: :arm64
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Onecast.app"
 
