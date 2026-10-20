@@ -1,6 +1,6 @@
 cask "oneprompt" do
-  version "0.1.0-alpha.6"
-  sha256 "f554ef8ff6dc5fe2391100460dcb23fdee256726a65a631b0055a18bf7d428d8"
+  version "0.1.0-alpha.7"
+  sha256 "9c8a2e6fded1b7ab2a26cb6d564d58c025d216ec27112a751f36859a74b340e6"
 
   url "https://github.com/jhasubhash/oneprompt/releases/download/v#{version}/oneprompt-#{version}.dmg"
   name "oneprompt"
