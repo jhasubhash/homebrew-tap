@@ -1,6 +1,6 @@
 cask "onepaper" do
-  version "0.4.1"
-  sha256 "7aae0ff173f970e1978e3dab180f7f3e5e7ecff601121cb81aec79b5b049ecf5"
+  version "0.4.2"
+  sha256 "6c5643527076cae6dacf6031641fdd6f9df085ee4dd1b73ca52596066f673e34"
 
   url "https://github.com/jhasubhash/onepaper-releases/releases/download/v#{version}/OnePaper-#{version}.dmg"
   name "OnePaper"
