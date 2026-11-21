@@ -1,6 +1,6 @@
 cask "onecast-universal" do
-  version "0.3.0"
-  sha256 "f9604b5dfadb5f7a6936b911357d66449a1717497cae93b8491e2f2269ee2d36"
+  version "0.3.1"
+  sha256 "31afe8da5677a46c5b0160425fc434abe9cf5254542cb6addcb0223ba9000c06"
 
   url "https://github.com/jhasubhash/onecast/releases/download/v#{version}/Onecast-Universal-#{version}.dmg"
   name "Onecast"
