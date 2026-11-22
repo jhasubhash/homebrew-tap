@@ -1,6 +1,6 @@
 cask "onepulse" do
-  version "0.3.1"
-  sha256 "62603f8727b49b70eb8903c5327241dd7a496580c2b8387e65c854c7ebc25089"
+  version "0.3.2"
+  sha256 "c34e9bc05b07791ef0619ab13d2da1807cb52ebe3f161d18eae48c07906b5a48"
 
   url "https://github.com/jhasubhash/onepulse-releases/releases/download/v#{version}/OnePulse-#{version}.dmg"
   name "OnePulse"
